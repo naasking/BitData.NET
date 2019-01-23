@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Sandro Magi</Authors>
+    <Company>Higher Logics</Company>
+    <Description>Data types for reading bit-level data sequences.</Description>
+    <Copyright>Sandro Magi 2019</Copyright>
+    <Version>1.0.0-RC1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\naask\source\repos\BitData\BitData\BitData.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BitData - Copy.cs" />
+    <Compile Remove="Nom.cs" />
+  </ItemGroup>
+
+</Project>
